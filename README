@@ -1,1 +1,5 @@
 gcc -o file.c file
+
+g++ hello-world.cpp -o hello-world \
+    -I /usr/local/include/opencv -L /usr/local/lib  \
+    -lm -lcv -lhighgui -lcvaux
