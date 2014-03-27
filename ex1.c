@@ -2,7 +2,10 @@
  *  displays it on the screen
  */
  
-#include “highgui.h”
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/objdetect/objdetect.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 int main( int argc, char** argv ) {
   IplImage* img = cvLoadImage( argv[1] );
